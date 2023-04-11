@@ -5,9 +5,10 @@
 n = int(input('Введите число монет: '))
 count = 0
 for i in range(n):
-    if input() == 'р':
+    if int(input()) == 0:
         count+=1
 if n - count <count:
+
     print(n-count)
 else:
     print(count)
